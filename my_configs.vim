@@ -1,4 +1,8 @@
 set nu
+
+set autochdir " BUG: this no longer works
+autocmd VimEnter * set autochdir
+
 autocmd VimEnter * nunmap <C-f>
 autocmd VimEnter * nunmap <C-b>
 
