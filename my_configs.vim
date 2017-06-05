@@ -1,4 +1,8 @@
 set nu
+set guioptions -=m
+set expandtab!
+
+set guifont=Monaco\ 12
 
 set autochdir " BUG: this no longer works
 autocmd VimEnter * set autochdir
