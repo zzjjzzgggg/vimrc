@@ -5,3 +5,5 @@
 * Notes
 
   - default leader key: ","
+  - most recently opened files: ,+f
+  - manage buffer: ,+o
