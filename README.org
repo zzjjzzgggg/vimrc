@@ -1,0 +1,7 @@
+* The Ultimate vimrc
+
+  [[https://github.com/amix/vimrc][Introduction]]
+
+* Notes
+
+  - default leader key: ~,~
