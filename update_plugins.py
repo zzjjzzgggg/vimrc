@@ -18,7 +18,6 @@ from os import path
 PLUGINS = """
 ack.vim https://github.com/mileszs/ack.vim
 bufexplorer https://github.com/corntrace/bufexplorer
-ctrlp.vim https://github.com/ctrlpvim/ctrlp.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx-vim-syntax https://github.com/evanmiller/nginx-vim-syntax
