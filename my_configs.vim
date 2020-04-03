@@ -1,17 +1,18 @@
 set nu
-set guioptions -=m
+set guioptions-=m
 set expandtab!
 set guifont=Monaco\ 12
 set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 14
 set nobackup
 set textwidth=80
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 set autochdir " BUG: this no longer works
 "autocmd VimEnter * set autochdir
 "autocmd VimEnter * nunmap <C-f>
 "autocmd VimEnter * nunmap <C-b>
 
-autocmd BufNewFile,BufRead *lua_* setlocal filetype=tex textwidth=75
+autocmd BufNewFile,BufRead *lua_* setlocal filetype=tex textwidth=75 tabstop=2 shiftwidth=2
 
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
